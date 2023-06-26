@@ -4,7 +4,7 @@
   "private": false,
   "description": "ESLint configuration used by Antonio Bruno Wingert",
   "main": "index.js",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "url": "antoniowingert/eslint-config"
   },
