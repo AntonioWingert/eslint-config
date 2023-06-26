@@ -2,7 +2,8 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
-    jest: true
+    jest: true,
+    node: true
   },
   extends: [
     'plugin:react/recommended',
@@ -31,7 +32,7 @@ module.exports = {
       singleQuote: true,
       trailingComma: 'all',
       arrowParens: 'always',
-      semi: false,
+      semi: 'always',
       endOfLine: 'auto'
     }],
     'react/react-in-jsx-scope': 'off',
